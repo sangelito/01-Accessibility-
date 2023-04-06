@@ -8,24 +8,24 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     /* made header font bigger for easier readability */ 
     display: inline-block;
     font-size: 55px;
 }
 
-.header h1 .seo {
+header h1 .seo {
     /* color distinction between white and gray can be difficult for some readers*/
     color: #d9dcd6;
 }
 
-.header div {
+nav{
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -34,11 +34,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+nav ul {
     list-style-type: inline;
 }
 /* some margins were changed for aesthetic reasons*/
-.header div ul li {
+nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -72,7 +72,7 @@ p {
     margin-left: 25px;
 }
 
-.content {
+section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -137,25 +137,7 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 30px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 30px;
-    padding: 30px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
+article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -163,6 +145,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+
 
 .search-engine-optimization img {
     max-height: 200px;
@@ -191,14 +174,14 @@ p {
     font-size: 40px;
 }
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     /* footer was changed to h4 but font size is readable*/
     font-size: 20px;
 }
