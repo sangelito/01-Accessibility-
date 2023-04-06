@@ -30,14 +30,14 @@ nav{
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    /* font size of header was also made a bit bigger for easier readability */
+    /* font size of header was also made a bit bigger for easier readability, changed from div to semantic element Nav */
     font-size: 20px;
 }
 
 nav ul {
     list-style-type: inline;
 }
-/* some margins were changed for aesthetic reasons*/
+
 nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -71,13 +71,13 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/* Section contains the three articles on the left*/
 section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* Aside is for the elements on the right side of website*/
 aside {
     margin-right: 25px;
     padding: 20px;
@@ -106,7 +106,7 @@ aside {
     max-width: 150px;
 }
 
-
+/* article contains description of what the company offers*/
 article {
     margin-bottom: 20px;
     padding: 50px;
@@ -116,7 +116,7 @@ article {
     color: #ffffff;
 }
 
-
+/* repetive code removed, keeps images at consistent size*/
 article img {
     max-height: 200px;
 }
