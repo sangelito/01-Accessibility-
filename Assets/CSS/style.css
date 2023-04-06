@@ -15,11 +15,13 @@ body {
 }
 
 .header h1 {
+    /* made header font bigger for easier readability */ 
     display: inline-block;
     font-size: 55px;
 }
 
 .header h1 .seo {
+    /* color distinction between white and gray can be difficult for some readers*/
     color: #d9dcd6;
 }
 
@@ -28,13 +30,14 @@ body {
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font size of header was also made a bit bigger for easier readability */
     font-size: 20px;
 }
 
 .header div ul {
     list-style-type: inline;
 }
-
+/* some margins were changed for aesthetic reasons*/
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
@@ -46,6 +49,7 @@ a {
 }
 
 p {
+    /* font size was too small, made bigger for easier read*/
     font-size: 20px;
 }
 
@@ -195,5 +199,6 @@ p {
 }
 
 .footer h2 {
+    /* footer was changed to h4 but font size is readable*/
     font-size: 20px;
 }
